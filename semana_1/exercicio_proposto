@@ -1,0 +1,13 @@
+CRIAR UM CODIGO PARA CRIAR MATRIZ
+
+1 - O numero de linhas e colunas seram definidas pelo usuario
+2 - Deve haver uma funcao que cria a matriz e vai solicitando os valores que seram adicionados em cada esppaco de matriz.
+3 - criar uma funcao que pega a lista [matriz] e imprime da forma matricial ou seja representando graficamente linhas e colunas.
+
+ordem [linha, colunas]
+i - linhas
+j - colunas
+
+[linhas],[linhas],[colunas]
+[linhas],[linhas],[colunas]
+[linhas],[linhas],[colunas]
