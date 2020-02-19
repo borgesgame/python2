@@ -5,7 +5,6 @@
 
 class Ordenador:
 
-
     def direta(self,lista):        
         for i in range(len(lista) - 1):
             menor = i
