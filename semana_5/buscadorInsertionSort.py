@@ -5,26 +5,24 @@
 
 def insertion_sort(lista):
 
-    index = 0
-    suspenso = 0
-
-    for i in range(len(lista) - 1):
+    index_max = 0
+    suspenso_min = 0
+    for i in range(len(lista)-1):
         
         menor = False
         for eq in range(i,-1,-1):      
 
             if lista[i+1] < lista[eq]:
-                index = eq
-                suspenso = lista[i+1]
                 menor = True
+                index_max = eq
+                suspenso_min = lista[i+1]
 
         if menor:
-            for cont in range(i+1,index,-1):
-                lista[cont] = lista[cont -1]
+            for cont in range(i+1,index_max,-1):
+                lista[cont] = lista[cont-1]
 
-                if lista[cont-1] > suspenso:    
-                    lista[cont - 1] = suspenso
-        print(lista)
+                if lista[cont-1] > suspenso_min:    
+                    lista[cont-1] = suspenso_min
                     
                     
     return lista
